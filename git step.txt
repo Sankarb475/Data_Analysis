@@ -1,0 +1,16 @@
+Git upload steps
+=============================
+1) create a git repository manually
+ 
+2) clone the repository to you rlocal folder
+
+3) On your computer, move the file you'd like to upload to GitHub into the local directory that was created when you cloned the repository.
+
+4) Change the current working directory to your local repository inside the recently downloaded folder in cmd or git bash
+
+5) git add .
+
+6) git commit -m "initial commit"
+
+7) git push origin master
+
