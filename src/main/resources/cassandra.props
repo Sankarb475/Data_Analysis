@@ -1,0 +1,12 @@
+create KEYSPACE employee
+with replication={'class':'SimpleStrategy','replication_factor':1};
+
+use employee;
+
+create table data(
+id int PRIMARY KEY,
+name text,
+monthly_salary bigint,
+annual_salary_rupee bigint,
+currency text
+);

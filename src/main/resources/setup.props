@@ -1,0 +1,9 @@
+**run kafka zookeeper**
+.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+**create the kafka topic**
+kafka-topics.bat --create  --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test-log
+
+**run kafka broker**
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
